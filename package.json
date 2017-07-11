@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-dimebox",
+  "version": "1.0.0",
+  "description": "JavaScript Style Guide",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimebox/eslint-config-dimebox.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": "^15.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.6.1"
+  }
+}
