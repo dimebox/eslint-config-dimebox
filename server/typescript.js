@@ -14,10 +14,8 @@ const config = {
   },
   extends: [
     'tslint-config-airbnb',
-    ...[
-      '../lib/rules/jsdoc',
-    ].map(require.resolve),
-  ],
+    '../lib/rules/jsdoc',
+  ].map(require.resolve),
   rules: {},
 };
 

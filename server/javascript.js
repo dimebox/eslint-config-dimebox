@@ -13,11 +13,9 @@ const config = {
     node: true,
   },
   extends: [
-    'airbnb/base',
-    ...[
-      '../lib/rules/jsdoc',
-    ].map(require.resolve),
-  ],
+    'eslint-config-airbnb/base',
+    '../lib/rules/jsdoc',
+  ].map(require.resolve),
   rules: {},
 };
 
