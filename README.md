@@ -3,7 +3,7 @@
 
 The style guide for JavaScript / TypeScript projects.
 
-#### Javascript
+### JavaScript
 
 In the `./package.json`
 
@@ -23,7 +23,7 @@ In the `./eslintrc.json`
 }
 ```
 
-#### Typescript
+### TypeScript
 
 In the `./package.json`
 
