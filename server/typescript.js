@@ -17,7 +17,7 @@ const config = {
     '../lib/rules/jsdoc',
   ].map(require.resolve),
   rules: {
-    'align': [true, 'parameters']
+    'align': [true, 'parameters'],
   },
 };
 
