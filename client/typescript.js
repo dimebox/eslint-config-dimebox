@@ -16,7 +16,9 @@ const config = {
     'tslint-config-airbnb',
     '../lib/rules/jsdoc',
   ].map(require.resolve),
-  rules: {},
+  rules: {
+    'align': [true, 'parameters'],
+  },
 };
 
 /*
