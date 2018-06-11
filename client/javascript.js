@@ -14,9 +14,12 @@ const config = {
   },
   extends: [
     'eslint-config-airbnb/base',
-    '../lib/rules/jsdoc',
+    '../lib/rules/common',
+    '../lib/rules/common_javascript',
   ].map(require.resolve),
-  rules: {},
+  rules: {
+    // custom rules
+  },
 };
 
 /*
