@@ -9,9 +9,9 @@ In the `./package.json`
 
 ```json
 "devDependencies": {
-	"eslint": "^3.19.0",
-	"eslint-config-dimebox": "git+https://git@github.com/dimebox/eslint-config-dimebox.git",
-	"eslint-plugin-import": "^2.6.1"
+  "eslint": "^3.19.0",
+  "eslint-config-dimebox": "git+https://git@github.com/dimebox/eslint-config-dimebox.git",
+  "eslint-plugin-import": "^2.6.1"
 }
 ```
 
@@ -19,7 +19,7 @@ In the `./eslintrc.json`
 
 ```json
 {
-	"extends": "eslint-config-dimebox/server/javascript"
+  "extends": "eslint-config-dimebox/server/javascript"
 }
 ```
 
@@ -29,8 +29,8 @@ In the `./package.json`
 
 ```json
 "devDependencies": {
-	"eslint-config-dimebox": "git+https://git@github.com/dimebox/eslint-config-dimebox.git",
-	"tslint": "5.0.0"
+  "eslint-config-dimebox": "git+https://git@github.com/dimebox/eslint-config-dimebox.git",
+  "tslint": "5.0.0"
 }
 ```
 
@@ -38,7 +38,7 @@ In the `./tslint.json`
 
 ```json
 {
-	"extends": "eslint-config-dimebox/server/typescript"
+  "extends": "eslint-config-dimebox/server/typescript"
 }
 ```
 
@@ -48,9 +48,9 @@ In the `./package.json`
 
 ```json
 "devDependencies": {
-	"eslint": "^3.19.0",
-	"eslint-config-dimebox": "git+https://git@github.com/dimebox/eslint-config-dimebox.git",
-	"eslint-plugin-import": "^2.6.1"
+  "eslint": "^3.19.0",
+  "eslint-config-dimebox": "git+https://git@github.com/dimebox/eslint-config-dimebox.git",
+  "eslint-plugin-import": "^2.6.1"
 }
 ```
 
@@ -58,7 +58,7 @@ In the `./eslintrc.json`
 
 ```json
 {
-	"extends": "eslint-config-dimebox/client/javascript"
+  "extends": "eslint-config-dimebox/client/javascript"
 }
 ```
 
@@ -68,8 +68,8 @@ In the `./package.json`
 
 ```json
 "devDependencies": {
-	"eslint-config-dimebox": "git+https://git@github.com/dimebox/eslint-config-dimebox.git",
-	"tslint": "5.0.0"
+  "eslint-config-dimebox": "git+https://git@github.com/dimebox/eslint-config-dimebox.git",
+  "tslint": "5.0.0"
 }
 ```
 
@@ -77,6 +77,6 @@ In the `./tslint.json`
 
 ```json
 {
-	"extends": "eslint-config-dimebox/client/typescript"
+  "extends": "eslint-config-dimebox/client/typescript"
 }
 ```
