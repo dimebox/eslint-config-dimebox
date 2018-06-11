@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017 Dimebox
+ * Copyright 2018 Dimebox - All Rights Reserved
  * https://dimebox.com
  */
 
@@ -14,10 +14,11 @@ const config = {
   },
   extends: [
     'tslint-config-airbnb',
-    '../lib/rules/jsdoc',
+    '../lib/rules/common',
+    '../lib/rules/common_typescript',
   ].map(require.resolve),
   rules: {
-    'align': [true, 'parameters'],
+    // custom rules
   },
 };
 

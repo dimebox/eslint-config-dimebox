@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2017 Dimebox
+ * Copyright 2018 Dimebox - All Rights Reserved
  * https://dimebox.com
  */
 
@@ -14,9 +14,12 @@ const config = {
   },
   extends: [
     'eslint-config-airbnb/base',
-    '../lib/rules/jsdoc',
+    '../lib/rules/common',
+    '../lib/rules/common_javascript',
   ].map(require.resolve),
-  rules: {},
+  rules: {
+    // custom rules
+  },
 };
 
 /*
